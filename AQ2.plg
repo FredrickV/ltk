@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AQ2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\bob\LOCALS~1\Temp\RSP403.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AQ2_EXPORTS" /FR"Debug/" /Fp"Debug/AQ2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Aq2\src\A_COOP.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\bob\LOCALS~1\Temp\RSP403.tmp" 
+Creating temporary file "C:\DOCUME~1\bob\LOCALS~1\Temp\RSP404.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib /nologo /dll /incremental:yes /pdb:"Debug/gamex86.pdb" /debug /machine:I386 /def:".\src\game.def" /out:"c:\quake2\action\gamex86.dll" /implib:"Debug/gamex86.lib" /pdbtype:sept 
+.\Debug\m_actor.obj
+.\Debug\m_berserk.obj
+.\Debug\m_boss2.obj
+.\Debug\m_boss3.obj
+.\Debug\m_boss31.obj
+.\Debug\m_boss32.obj
+.\Debug\m_brain.obj
+.\Debug\m_chick.obj
+.\Debug\m_flash.obj
+.\Debug\m_flipper.obj
+.\Debug\m_float.obj
+.\Debug\m_flyer.obj
+.\Debug\m_gladiator.obj
+.\Debug\m_gunner.obj
+.\Debug\m_hover.obj
+.\Debug\m_infantry.obj
+.\Debug\m_insane.obj
+.\Debug\m_medic.obj
+.\Debug\m_mutant.obj
+.\Debug\m_parasite.obj
+.\Debug\m_soldier.obj
+.\Debug\m_supertank.obj
+.\Debug\m_tank.obj
+.\Debug\a_cmds.obj
+.\Debug\A_COOP.obj
+.\Debug\a_doorkick.obj
+.\Debug\a_game.obj
+.\Debug\a_items.obj
+.\Debug\a_menu.obj
+.\Debug\a_radio.obj
+.\Debug\a_team.obj
+.\Debug\acebot_ai.obj
+.\Debug\acebot_cmds.obj
+.\Debug\acebot_compress.obj
+.\Debug\acebot_items.obj
+.\Debug\acebot_movement.obj
+.\Debug\acebot_nodes.obj
+.\Debug\acebot_spawn.obj
+.\Debug\Bot_ai.obj
+.\Debug\bot_collision.obj
+.\Debug\bot_combat.obj
+.\Debug\bot_env_doors.obj
+.\Debug\bot_movement.obj
+.\Debug\bot_states.obj
+.\Debug\bot_utility.obj
+.\Debug\bot_weapon.obj
+.\Debug\botchat.obj
+.\Debug\botnav.obj
+.\Debug\botscan.obj
+.\Debug\cgf_sfx_glass.obj
+.\Debug\g_ai.obj
+.\Debug\g_chase.obj
+.\Debug\g_cmds.obj
+.\Debug\g_combat.obj
+.\Debug\g_func.obj
+.\Debug\g_items.obj
+.\Debug\g_main.obj
+.\Debug\g_misc.obj
+.\Debug\g_monster.obj
+.\Debug\g_phys.obj
+.\Debug\g_save.obj
+.\Debug\g_spawn.obj
+.\Debug\g_svcmds.obj
+.\Debug\g_target.obj
+.\Debug\g_trigger.obj
+.\Debug\g_turret.obj
+.\Debug\g_utils.obj
+.\Debug\g_weapon.obj
+.\Debug\m_move.obj
+.\Debug\p_client.obj
+.\Debug\p_hud.obj
+.\Debug\p_trail.obj
+.\Debug\p_view.obj
+.\Debug\p_weapon.obj
+.\Debug\q_shared.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\bob\LOCALS~1\Temp\RSP404.tmp"
+<h3>Output Window</h3>
+Compiling...
+A_COOP.c
+C:\Aq2\src\A_COOP.c(538) : warning C4013: 'SP_monster_soldier' undefined; assuming extern returning int
+C:\Aq2\src\A_COOP.c(540) : warning C4013: 'SP_monster_berserk' undefined; assuming extern returning int
+C:\Aq2\src\A_COOP.c(542) : warning C4013: 'SP_monster_infantry' undefined; assuming extern returning int
+C:\Aq2\src\A_COOP.c(544) : warning C4013: 'SP_monster_gladiator' undefined; assuming extern returning int
+C:\Aq2\src\A_COOP.c(546) : warning C4013: 'SP_monster_gunner' undefined; assuming extern returning int
+C:\Aq2\src\A_COOP.c(548) : warning C4013: 'SP_monster_soldier_light' undefined; assuming extern returning int
+C:\Aq2\src\A_COOP.c(550) : warning C4013: 'SP_monster_soldier_ss' undefined; assuming extern returning int
+Linking...
+
+
+
+<h3>Results</h3>
+gamex86.dll - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

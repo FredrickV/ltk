@@ -1,0 +1,39 @@
+- Grenades can be picked up in deathmatch again.
+- Handcannon reload is alot better. Instead of waiting for reload to finish to add
+two rounds, it adds the rounds while reloading (one at f78 and one at f79) so it looks
+real.
+- Client, add the bandage icon while bandaging as TNG does.
+
+LTK 1.25
+- Bot's check their location from time to time, so they arent lost in their
+  own route table.  
+- Bot's "fly" less, but still a issue.
+- Bot's use the scope again.
+- KnifeWar added as a game mode (beta).
+- Improved the grenades usage.
+- Optimized the code generation.
+- Matched the client and the bot rules against the gamemodes.
+- Bot's pic a more reasonable item for the gamemodes.
+- Added action male model to the deathmatch.
+
+LTK 1.24 16 Feb 2006
+
+- Various changes and balances (weapon, think states etc++)
+- Added 4 game modes (Bots can play sniper war, mp5 war etc).
+- Added a new navigation state.
+- Changed a few nodes checks.
+- Bot's can now handle doors allot better.
+
+1.23 14th Feb 2006
+
+- Tweaked the distance bots walk backwards while opening the door.
+- Rdeath removed and Im_hit from the radio.
+- The bot's aren't so aggressive using the radio anymore.
+- Improved the usage of weapons vs distance to target 
+- Bot's try to avoid hitting their teammates.
+- Improved Jumping.
+- Grenades implemented.
+- Bots understand when to crouch.
+- Changed some sounds.
+- Bots are able to walk trough the doors , when animated (opening) until i can 
+clean up the bot door handler code.

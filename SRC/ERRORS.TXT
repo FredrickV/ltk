@@ -1,0 +1,1 @@
+gcc -DUNIX_FS -DXT_rhess -Dstricmp=strcasecmp -D_strnicmp=strncasecmp  -O2 -fPIC -c acesrc/acebot_ai.c -o acesrc/acebot_ai.o

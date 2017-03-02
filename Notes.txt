@@ -1,0 +1,9 @@
+Jabot implementation doc.
+
+
+done:
+qboolean AI_CanMove(edict_t *self, int direction)
+void AI_ChangeAngle (edict_t *ent) / void ACEMV_ChangeBotAngle (edict_t *ent)
+
+
+todo:

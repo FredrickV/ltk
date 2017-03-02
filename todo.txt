@@ -1,0 +1,122 @@
+Last updated 11/5-06
+
+Todo made for 1.26 and greater:
+
+
+Planed for,
+1.26:
+===========
+
+Client, if your pistol is empty , picking up a gun should not add 12 bullets
+in the chamber but 1 to the clipp.
+
+1.2X: Bugs etc.
+===============
+Bot's tend to stand idle near spawn point, sometimes resulting in self kill
+becouse they belive they are stuck.
+
+Bot's are to jumpy, tends to fall down from high places . Note that their curent
+avoid falling code while walking is briliant.
+
+Bot's try to climb a ladder which is still 10 meters away, resulting in crouching
+and "flying".
+
+Client, add a icon or something to tell the player which state his knife is in, 
+throwing or slashing.
+
+Client, add a worthy stats system. 
+
+Bot's dont aim right with their knife, (distance vs aim needs correction)
+
+Client, if the host adds a bot, the next client that joins the server jumps
+into the viewport of the bot, sharing the inputt :( .
+
+Bot's tend to bandage while engaged , unwated feature.
+
+If a bot drops its weapon, walk over it a second later which result in a pickup,
+and if he runs out of bullets in his gun, he will tamper for a few seconds until
+droping his weapon again. Perhaps we could increase the "no pickup" time after a recent
+drop or make a slight hack resulting in not picking it up at all?.
+
+
+
+1.2X: Wanted features.
+======================
+
+Improving the route system.
+
+Terrain covering, terrain understanding etc.
+
+Drop a node near last seen enemy and putt that as objective for a short period.
+
+have sounds like tng has.
+
+
+Unsure if this work:
+====================
+
+
+
+Done items cutt/pased bellow here.
+===================================
+LTK 1.26 Date Pending.
+
+
+- Grenades can be picked up in deathmatch again.
+
+LTK 1.2* Friday, May 12, 2006
+Paril
+
+- Handcannon reload is alot better. Instead of waiting for reload to finish to add
+two rounds, it adds the rounds while reloading (one at f78 and one at f79) so it looks
+real.
+- Client, add the bandage icon while bandaging as TNG does.
+
+LTK 1.25 30 March/Apr 2006 
+
+- Bot's check their location from time to time, so they arent lost in their 
+own route table. 
+- Bot's "fly" less, but still a issue. 
+- Bot's use the scope again. 
+- KnifeWar added as a game mode (beta). 
+- Improved the grenades usage. 
+- Optimized the code generation. 
+- Matched the client and the bot rules against the gamemodes. 
+- Bot's pic a more reasonable item for the gamemodes. 
+- Added action male model to the deathmatch 
+
+
+Action Quake 2 L.T.K 1.24 available 
+LTK 1.24 16 Feb 2006 
+
+- Various changes and balances (weapon, think states etc++) 
+- Added 4 game modes (Bots can play sniper war, mp5 war etc) 
+- Added a new navigation state. 
+- Changed a few nodes checks. 
+- Bot's can now handle doors allot better. 
+
+Urban.ltk nav added, note that all of the nav files are based on the ltk 1.22 and therefor dont use all the benefits added in later versions. Check the readme on how to create your own. 
+
+Action Quake 2 L.T.K 1.23 available 
+A new Action Quake 2 version is available, i had to step down several versions. All the way down to ltk 1.22 to get rid of the bugs introduced later on. 
+
+Main fixes from previous version (Bot release 0.51 based on New LTK from WereWolf www.playspoon.com) 
+
+Bots can now play in deathmatch again. 
+Bots can navigate better again. (Far from perfect, or even good) 
+Bots don't use so much memory anymore. 
+You can now add 18 bots, instead of 8 which did result in bad frame rates before. 
+
+re-implemented most of the features from the other version, with a few more. 
+
+- Tweaked the distance bots walk backwards while opening the door. 
+- Rdeath removed and Im_hit from the radio. 
+- The bot's aren't so aggressive using the radio anymore. 
+- Improved the usage of weapons vs distance to target 
+- Bot's try to avoid hitting their teammates. 
+- Improved Jumping. 
+- Grenades implemented. 
+- Bots understand when to crouch. 
+- Changed some sounds 
+- Bots are able to walk trough the doors , when animated (opening) until i can 
+clean up the bot door handler code.

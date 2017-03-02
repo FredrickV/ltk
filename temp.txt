@@ -1,0 +1,31 @@
+                {
+                        char grenade_num[32];
+                        if (tgren->value > 0)
+                                sprintf(grenade_num, "%d grenade%s", 
+                                                (int)tgren->value,
+                                                (int)tgren->value == 1 ? "" : "s");
+                        sprintf(msg_buf + strlen(msg_buf), "Bandolier w/ %s%s%s\n",
+                                !(ir->value) ? "no IR" : "",
+                                (tgren->value > 0 && !(ir->value)) ? " & " : "",
+                                tgren->value > 0 ? grenade_num : "");
+                        lines++;
+                }
+                
+                
+                    if (tgren->value <= 0) // team grenades is turned off
+        {
+                it = FindItem(GRENADE_NAME);
+                ent->client->pers.inventory[ITEM_INDEX(it)] = 0;
+        }
+        
+        
+                   if ( stricmp(client->resp.item->pickup_name, BAND_NAME) == 0 )
+        {
+                band = 1;
+                if (tgren->value > 0) // team grenades is turned on
+                {
+                        item = FindItem(GRENADE_NAME);
+                        client->pers.inventory[ITEM_INDEX(item)] = tgren->value;
+                }
+                
+        } 
